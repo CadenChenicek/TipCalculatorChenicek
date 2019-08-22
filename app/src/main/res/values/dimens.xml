@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "LabelWidth">100dp</dimen>
+    <dimen name = "editTextWidth">200dp</dimen>
+    <dimen name = "height">60dp</dimen>
+    <dimen name = "textSize">20dp</dimen>
+</resources>
