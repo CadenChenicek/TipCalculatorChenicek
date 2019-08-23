@@ -24,10 +24,11 @@ public class MainActivity extends AppCompatActivity {
         EditText numPercent = (EditText) findViewById(R.id.tipPercent);
         TextView tipText = (TextView) findViewById(R.id.tipText);
         TextView totalText = (TextView) findViewById(R.id.totalText);
-        RatingBar simpleRatingBar = (RatingBar) findViewById(R.id.simpleRatingBar);
+        RatingBar simpleRatingBar = (RatingBar) findViewById(R.id.starBar);
 
         double numTotal = Double.parseDouble(numTotalBill.getText().toString());
         double percent = Integer.parseInt(numPercent.getText().toString());
+        String numStars = String.valueOf(simpleRatingBar.getNumStars());
 
         double tip = (percent/100) * numTotal;
         double afterTip = numTotal + tip;
